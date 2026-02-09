@@ -8,8 +8,9 @@ $mexArray[] = [
     "consiglio" => $mex,
     "data" => date("Y-m-d H:i:s")
 ];
-
-$mexJson= json_encode($mexArray);
+// JSON UNESCAPED UNICODE SI USA PER NON FAR FARE L'ESCAPE DEI CARATTERI A PHP DURANTE LA CONVERSIONE
+$mexJson= json_encode($mexArray,JSON_UNESCAPED_UNICODE);
 file_put_contents("./db/messages.json",$mexJson);
 
-header("Location: ./pages/aboutus.php");
+
+header("Location: ./pages/successMex.php");

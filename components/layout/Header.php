@@ -11,7 +11,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
         <ul class="navbar-nav ms-auto me-3">
             <li class="nav-item">
-                <a class="nav-link <?php echo ($current_page == 'home.php') ? 'active' : '' ?>" href="./home.php">Home</a>
+                <a class="nav-link me-2 <?php echo ($current_page == 'home.php') ? 'active' : '' ?>" href="./home.php">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link <?php echo ($current_page == 'aboutus.php') ? 'active' : ''; ?>" href="./aboutus.php">Chi siamo</a>
