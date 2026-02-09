@@ -11,6 +11,7 @@ class Movie
     public int $year;
     public $trama;
     public $url_img;
+    public $slug;
     public array $genres;
 
     use TitleUpperCase;
@@ -25,6 +26,7 @@ class Movie
         $this->trama = $_trama;
         $this->url_img=$_url_img;
         $this->genres = $_genres;
+        $this->slug = $this->setSlug($this->title);
     }
 
     public function getDurationinHours()

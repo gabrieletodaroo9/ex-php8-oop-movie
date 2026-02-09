@@ -1,5 +1,5 @@
 <div class="col">
-    <div class="card bg-dark text-white mb-3 shadow-sm border-0" style="height: 300px; overflow: hidden;">
+    <a href="../pages/detail.php?slug=<?php echo $movie->slug; ?>" class="card text-decoration-none bg-dark text-white mb-3 shadow-sm border-0" style="height: 300px; overflow: hidden;">
         <div class="row g-0 h-100">
             <div class="col-4 h-100">
                 <img src="<?php echo $movie->url_img; ?>" class="img-fluid h-100 w-100" style="object-fit: cover;" alt="cover-img">
@@ -26,5 +26,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </a>
 </div>
