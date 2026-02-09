@@ -6,7 +6,8 @@
 
     <?php require_once("../components/layout/Header.php") ?>
 
-    <main>
+    <main class="bg-main montserrat">
+        <?php require_once("../components/Jumbotron.php") ?>
         <div class="container">
             <?php require_once("../components/MoviesCatalogue.php") ?>
         </div>

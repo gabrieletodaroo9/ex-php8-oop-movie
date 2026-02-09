@@ -1,0 +1,38 @@
+.bg-main{
+    background-color: #474545;
+}
+
+.bg-lightgray{
+    background-color: #4c4949;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-shadow {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.footer-shadow {
+    box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.5);
+    border-top: none;
+}
+
+.jumbo {
+    letter-spacing: 2px;
+    color: #ccb734;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/272ad6a8-a8b0-4f3d-ac53-7c7f75024955/toy+story+5+title+banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
