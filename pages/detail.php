@@ -1,11 +1,11 @@
 <?php
-require_once "../db/db.php";
+require_once __DIR__ . "/../db/db.php";
 $slug_richiesto = $_GET['slug'] ?? null;
 
 $currentmovie = [];
-foreach ($movies as $item) {
-    if ($item->slug === $slug_richiesto) {
-        $currentmovie = $item;
+foreach ($movies as $current) {
+    if ($current->slug === $slug_richiesto) {
+        $currentmovie = $current;
         break;
     }
 }
@@ -16,11 +16,11 @@ if (!$currentmovie) {
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include '../components/layout/head.php'; ?>
+<?php require_once __DIR__ . "/../partials/layout/head.php"; ?>
 
 
 <body>
-    <?php include '../components/layout/header.php'; ?>
+    <?php include __DIR__ . "/../partials/layout/header.php"; ?>
 
 
     <main class="bg-main">
@@ -74,7 +74,7 @@ if (!$currentmovie) {
         </div>
     </main>
 
-    <?php include '../components/layout/footer.php'; ?>
+    <?php include __DIR__ . "/../partials/layout/footer.php"; ?>
 </body>
 
 </html>

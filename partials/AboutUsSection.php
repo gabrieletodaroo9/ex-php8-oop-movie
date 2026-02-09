@@ -41,4 +41,4 @@
         </div>
     </div>
 </div>
-<?php include_once("../components/FormAbout.php") ?>
+<?php include_once __DIR__ . "/FormAbout.php" ?>

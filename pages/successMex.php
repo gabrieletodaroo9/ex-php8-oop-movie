@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="it">
-<?php require("../components/layout/Head.php") ?>
+<?php require __DIR__ . "/../partials/layout/Head.php" ?>
 
 <body class="d-flex flex-column" style="min-height: 100vh;">
 
-<?php require("../components/layout/Header.php") ?>
+<?php require("../partials/layout/Header.php") ?>
 
     <main class="bg-main montserrat flex-grow-1 d-flex align-items-center justify-content-center">
         <div class="container text-center py-5">

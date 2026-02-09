@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require("../components/layout/Head.php") ?>
+<?php require __DIR__ . "/../partials/layout/Head.php" ?>
 
 <body>
 
-    <?php require_once("../components/layout/Header.php") ?>
+    <?php require_once __DIR__ . "/../partials/layout/Header.php" ?>
 
     <main class="bg-main montserrat">
-        <?php require_once("../components/Jumbotron.php") ?>
+        <?php require_once("../partials/Jumbotron.php") ?>
         <div class="container">
-            <?php require_once("../components/MoviesCatalogue.php") ?>
+            <?php require_once __DIR__ . "/../partials/MoviesCatalogue.php" ?>
         </div>
 
     </main>
 
-    <?php require_once("../components/layout/Footer.php") ?>
+    <?php require_once __DIR__ . "/../partials/layout/Footer.php" ?>
 
 </body>
 

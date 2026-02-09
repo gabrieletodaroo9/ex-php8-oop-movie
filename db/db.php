@@ -1,7 +1,7 @@
 <?php
 
-require_once("../models/Genre.php"); 
-require_once("../models/Movie.php");
+require_once __DIR__ . "/../models/Genre.php"; 
+require_once __DIR__ . "/../models/Movie.php";
 
 $genres = [
     $drammatico = new Genre("Drammatico", "Storie profonde, conflitti umani e trame cariche di emozione."),
