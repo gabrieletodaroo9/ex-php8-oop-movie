@@ -10,11 +10,7 @@ $genres = [
     $azione = new Genre("Azione", "Adrenalina pura, inseguimenti mozzafiato e scene di combattimento."),
     $crime = new Genre("Crime", "Storie di criminalità, indagini poliziesche e misteri da risolvere."),
     $commedia = new Genre("Commedia", "Pensato per il divertimento, tra situazioni ironiche e risate."),
-    $horror = new Genre("Horror", "Progettato per evocare paura, tensione e brividi improvvisi."),
-    $thriller = new Genre("Thriller", "Suspense costante e colpi di scena che tengono con il fiato sospeso."),
     $animazione = new Genre("Animazione", "Film realizzati con tecniche grafiche, dai classici ai moderni in 3D."),
-    $documentario = new Genre("Documentario", "Esplorazione del mondo reale, della natura e della storia."),
-    $fantasy = new Genre("Fantasy", "Mondi magici, creature leggendarie ed epiche avventure fantastiche."),
     $avventura = new Genre("Avventura", "Viaggi epici e scoperte in luoghi lontani e inesplorati.")
 ];
 

@@ -1,3 +1,13 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILS */
+
 .bg-main{
     background-color: #474545;
 }
@@ -28,6 +38,8 @@
     border-top: none;
 }
 
+/* JUMBO */
+
 .jumbo {
     letter-spacing: 2px;
     color: #ccb734;
@@ -36,6 +48,8 @@
     background-size: cover;
     background-position: center;
 }
+
+/* FORM */
 
 .form-control:focus{
     background-color: #474545;
