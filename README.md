@@ -1,6 +1,6 @@
 # PHPFlix - OOP Movie Platform
 
-**PHPFlix** è una piattaforma di catalogazione film interamente sviluppata in **PHP Orientato agli Oggetti (OOP)**. Il progetto simula un'esperienza alla Netflix, integrando logiche di business, gestione dei dati tramite oggetti e persistenza dei feedback utente.
+**PHPFlix** è una piattaforma di catalogazione film interamente sviluppata in **PHP Orientato agli Oggetti (OOP)**. Il progetto simula la visualizzazione di film, integrando logiche di business, gestione dei dati tramite oggetti e persistenza dei feedback utente.
 
 
 ### Demo
